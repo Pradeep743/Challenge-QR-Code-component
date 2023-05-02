@@ -37,3 +37,14 @@ p{
     color: hsl(220, 15%, 55%);
     font-weight: 400;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    width: 50%;
+  }
+}
+@media (max-width: 675px) {
+  .container {
+    width: 60%;
+  }
+}
