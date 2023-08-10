@@ -1,12 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
 }
 
 .container {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  font-family: 'Outfit', sans-serif;
   margin: 8em auto;
   width: 20%;
   background-color: hsl(0, 0%, 100%);
